@@ -70,28 +70,6 @@ mod test {
 
     use super::*;
 
-    // #[test]
-    // fn nn_test() {
-    //     let x = vec![4.0, 15.0]; //inputs
-    //     let w = vec![0.0, 1.0]; //weights
-    //     let b = 0.0; //bias
-
-    //     let prediction = feedforward(&x, &w, b);
-    //     let expected = (prediction - 0.999999694097773).abs();
-
-    //     assert!(expected < 1e-6, "Prediction: {:#?} ", prediction);
-    // }
-
-    // #[test]
-    // fn test_feedforwad() {
-    //     let x = vec![4.0, 15.0]; //inputs
-    //     let w = vec![0.0, 1.0]; //weights
-    //     let b = 0.0; //bias
-    //     let prediction = feedforward(x, w, b);
-    //     let expected = (prediction - 0.999999694097773).abs();
-    //     assert!(expected < 1e-6, "Prediction: {:#?} ", prediction);
-    // }
-
     #[test]
     fn test_sigmoid_should_pass() {
         let result = sigmoid(15.0); // 0.999999694097773
